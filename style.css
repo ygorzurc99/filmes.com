@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif    
+}
+
+header{
+    padding: 5%;
+    background-color: black;
+  
+}
+
+#menu-header{
+    display: flex;
+    justify-content: end;
+}
+
+#menu-header li{
+    margin-right: 1.6%;
+}
+
+#menu-header a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-header a:hover{
+    transition: 0.3s;
+    color: gray;
+}
+
+/*  */
+
+#destaque{
+    padding: 13vw;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#destaque h1{
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+#destaque button{
+    margin-top: 2em;
+    background-color: transparent;
+    padding: 1em;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#destaque button:hover{
+    transition: 0.4s;
+    border-color: gray;
+    color: white;
+}
+
+.img-slogan{
+    background: linear-gradient(180deg, #4e4e4e70 8.33%, rgba(66, 66, 66, 0.829)),url(imagens/rosto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.8em;
+}
+
+/*  */
+
+#section2{
+    display: flex;
+    padding: 6%;
+}
+
+#section2 h1{
+    margin: 2%;
+}
+
+#section2 img{
+    margin-left: 6%;
+    width: 30vw;
+    height: 35vw;
+    border-radius: 15px;
+}
+
+/*  */
+
+
+#section3{
+    display: flex;
+    padding: 6%;
+}
+
+
+#section3 h1{
+    margin: 1%;
+    max-width: 75%;
+}
+
+#section3 p{
+   
+}
+
+#section3 img{
+    margin-left: 6%;
+    width: 43vw;
+    height: 35vw;
+    border-radius: 10px;
+}
+
+/* imagem de fundo da frase sua noite de terror de volta */
+
+#img-slogan{
+    background: url(imagens/rosto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20vw;
+}
+
+#img-slogan h1{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+    color: white;
+    font-size: 2.6em;
+}
+
+/* estilizando o footer*/
+footer {
+    padding: 2%;
+    background-color: rgb(247, 242, 242);
+    justify-content: space-evenly;
+
+}
+
+
+footer>h2 {
+    text-align: center;
+}
+
+footer>ul>div>li {
+    margin-bottom: 30px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itens-footer {
+        display: flex;
+        align-items: center;
+}
+
+.itens-footer>img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
